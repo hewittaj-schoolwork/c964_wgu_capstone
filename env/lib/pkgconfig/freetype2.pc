@@ -1,0 +1,14 @@
+prefix=/Users/alexhewitt/Documents/c964_wgu_capstone/env
+exec_prefix=/Users/alexhewitt/Documents/c964_wgu_capstone/env
+libdir=/Users/alexhewitt/Documents/c964_wgu_capstone/env/lib
+includedir=/Users/alexhewitt/Documents/c964_wgu_capstone/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/alexhewitt/Documents/c964_wgu_capstone/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
