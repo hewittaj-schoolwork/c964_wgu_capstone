@@ -122,3 +122,10 @@
 +defaults/osx-64::zlib-1.2.11-h1de35cc_3
 +defaults/osx-64::zstd-1.4.9-h322a384_0
 # update specs: ['pandas', 'numpy', 'scikit-learn', 'matplotlib', 'jupyter']
+==> 2021-11-09 11:15:01 <==
+# cmd: /Users/alexhewitt/opt/miniconda3/condabin/conda install -c anaconda seaborn -y
+# conda version: 4.10.3
+-defaults/osx-64::ca-certificates-2021.10.26-hecd8cb5_2
++anaconda/noarch::seaborn-0.11.0-py_0
++anaconda/osx-64::ca-certificates-2020.10.14-0
+# update specs: ['seaborn']
